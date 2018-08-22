@@ -13,15 +13,15 @@ module.exports.run = async (client) =>{
 
     for (i=0; i<10;){
         
-        client.user.setPresence({ game: { name: `Proteção - MoreirawC`, url: "https://www.twitch.tv/viniciussz_", type: 1} });
+        client.user.setPresence({ game: { name: `https://twitter.com/Moreiiraw`, url: "https://www.twitch.tv/viniciussz_", type: 1} });
         await sleep(60000)
-        client.user.setPresence({ game: { name: "Proteção - Moreiraw", type: 0 } });
+        client.user.setPresence({ game: { name: "@Moreiiraw", type: 0 } });
         await sleep(60000)
-        client.user.setPresence({ game: { name: `AntiBOT - Moreiraw`, type: 3} });
+        client.user.setPresence({ game: { name: `Gostou do servidor?`, type: 3} });
         await sleep(60000)
-        client.user.setPresence({ game: { name: `Você é um robo?`, url: "https://www.twitch.tv/viniciussz_", type: 2} });
+        client.user.setPresence({ game: { name: `@Moreiiraw`, url: "https://www.twitch.tv/viniciussz_", type: 2} });
         await sleep(60000)
-        client.user.setPresence({ game: { name: `Complete a verificação!`, url: "https://www.twitch.tv/viniciussz_", type: 3} });
+        client.user.setPresence({ game: { name: `https://twitter.com/Moreiiraw`, url: "https://www.twitch.tv/viniciussz_", type: 3} });
        
     }
    
