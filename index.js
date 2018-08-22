@@ -9,6 +9,33 @@ client.on("ready", () => {
     gameloop.run(client);
 })
  
+
+client.on("guildMemberAdd", member => {
+  const embed = new Discord.RichEmbed()
+  .setTitle("**Moreiraw-Boas Vindas**")
+  .setColor("#4bf221")
+  .setDescription("\n \nBem vindo ao MoreirawDiscord ! Siga-me no twitter: https://twitter.com/Moreiiraw 😄")
+
+  .setTimestamp()
+  .setFooter("Moreiraw - BOT")
+
+member.send(embed)
+});
+ 
+client.on('guildMemberAdd', member => {
+    var x = member.guild.channels.get("470223109387976724");
+    if(!x) return;
+    const embed = new Discord.RichEmbed()
+    .setColor("BLUE")
+    .setThumbnail(member.user.avatarURL)
+    .setFooter("Venha se divertir junto connosco !!")
+    .setDescription(`:white_check_mark: **ENTROU** :white_check_mark:  \n \n ${member.user.username} **BEM VINDO(A) ao Moreiraw Discord ! !**`)
+    x.send(embed)
+    let membro = member.guild.roles.find("name", "NÂO-REGISTRADO");
+    member.addRole(membro)
+        
+});
+
 client.on('guildMemberAdd', member => { 
     
   let embed = new Discord.RichEmbed()
@@ -39,6 +66,79 @@ client.on('messageReactionAdd', (reaction, user) => {
        
   }
 })
+
+  client.on('guildMemberRemove', member => {
+    var x = member.guild.channels.get("470214019920429056");
+    if(!x) return;
+    const embed = new Discord.RichEmbed()
+    .setColor("RED")
+    .setThumbnail(member.user.avatarURL)
+    .setFooter("Esperamos que volte um dia !")
+    .setDescription(`:unamused:   **SAIU** :unamused:   \n \n ${member.user.username} **Saiu do SERVIDOR !**`)
+    x.send(embed)
+  
+  });
+
+  client.on('message', message =>{
+    if(message.content.includes("https://discord.gg/")){
+        message.delete()
+      message.channel.send(`${message.author}, não divulgue links de outros servidores!`)
+    }
+  })
+
+  client.on('message', message =>{
+    if(message.content.includes("https://discord.me/")){
+        message.delete()
+      message.channel.send(`${message.author}, não divulgue links de outros servidores!`)
+    }
+  })
+
+client.on('message', message =>{
+  if(message.content == '<@481644004342235136>'){
+    const embed = new Discord.RichEmbed()
+    .setTitle("**MoreirawBOT**")
+    .setColor("#4bf221")
+    .setDescription("\n \n Olá, sou o bot oficial do Moreiraw Discord, caso tenha algum bug ou sugestão contacte o Detestado#0164.")
+
+    .setTimestamp()
+    .setFooter("Moreiraw - BOT")
+
+    message.channel.send(embed);
+  }
+});
+
+client.on('message', message =>{
+  if(message.content == '<@469099849250504705>'){
+    const embed = new Discord.RichEmbed()
+    .setTitle("**Chamou o detestado ?**")
+    .setColor("#4bf221")
+    .setDescription("\n \n Bom, ele esta AFK, lhe chame no privado para quando ele voltar responder você! E NÃO MARQUE ELE NOVAMENTE!")
+
+    .setTimestamp()
+    .setFooter("Secretaria - Detestado")
+
+    message.channel.send(embed);
+  }
+});
+
+    client.on("guildMemberAdd", member => {
+      if(member.guild.id == "446432308086702081"){
+          const channel = member.guild.channels.get("481960408773689355");
+          channel.setName(`👤! Membros: ${member.guild.memberCount - member.guild.members.filter(m=>m.user.bot).size}`)
+      }
+  });
+  
+  
+  client.on("guildMemberRemove", member => {
+      if(member.guild.id == "481960408773689355"){
+          const channel = member.guild.channels.get("481247674515980318");
+          channel.setName(`👤! Membros: ${member.guild.memberCount - member.guild.members.filter(m=>m.user.bot).size}`)
+      }
+	  
+	 
+	  
+  });
+;
 
 client.on("message", message => {
   if (message.author.bot) return;
