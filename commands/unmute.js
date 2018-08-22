@@ -5,8 +5,8 @@ module.exports.run = async (client, message, args) =>{
     message.delete().catch(O_o=>{});
     if(!message.member.hasPermission('MANAGE_MESSAGES')) return message.reply(`:no_good::skin-tone-1:  **|** Sem permissão!`).then(msg => msg.delete(6000));
     const comousar = new Discord.RichEmbed()
-    .setTitle("h!unmute")
-    .setDescription(`Use: h!unmute <@user>`)
+    .setTitle("!unmute")
+    .setDescription(`Use: !unmute <@user>`)
     .setColor("")
     let member = message.mentions.members.first();
     if(!member)
