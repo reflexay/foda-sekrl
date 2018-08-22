@@ -19,9 +19,9 @@ client.on('guildMemberAdd', member => {
 
 
 
-member.guild.channels.get('481582426267844618').send(`** ** ` + `<@` + member.user.id  + `>`);
+member.guild.channels.get('446432308086702081').send(`** ** ` + `<@` + member.user.id  + `>`);
 
-member.guild.channels.get('481582426267844618').send(embed).then(cona=> {
+member.guild.channels.get('446432308086702081').send(embed).then(cona=> {
   cona.react('✅')
 })
  
@@ -34,8 +34,8 @@ member.guild.channels.get('481582426267844618').send(embed).then(cona=> {
 client.on('messageReactionAdd', (reaction, user) => {
   if(reaction.emoji.name === "✅" && user.id !== client.user.id) {
        reaction.remove(user)
-       client.guilds.get("476171791992225792").members.get(user.id).addRole('476174259442417666')
-       client.guilds.get("476171791992225792").members.get(user.id).removeRole('481580935939227658')
+       client.guilds.get("446432308086702081").members.get(user.id).addRole(446437846593699841')
+       client.guilds.get("446432308086702081").members.get(user.id).removeRole('481642715810103337')
        
   }
 })
