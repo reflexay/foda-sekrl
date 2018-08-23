@@ -5,7 +5,7 @@ module.exports.run = (client, message, args) =>{
    message.delete().catch(O_o=>{});
    if (message.member.hasPermission('MANAGE_ROLES_OR_PERMISSIONS')) {
     const comousar = new Discord.RichEmbed()
-       .setAuthor("MoreirawBOT, client.user.avatarURL)
+       .setAuthor("MoreirawBOT", client.user.avatarURL)
        .setTitle("!removercargo")
        .setDescription(`Ira remover o cargo do usuário mencionado.`)
        .setColor("#60d1f6")
