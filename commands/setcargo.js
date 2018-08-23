@@ -42,7 +42,7 @@ module.exports.run = (client, message, args) =>{
    if(message.guild.channels.find("name", "changelog")){
       let guild = message.guild.channels.find("name", "changelog");
       const changelog = new Discord.RichEmbed()
-        .setTitle(":verificado:  CHANGELOG")
+        .setTitle("😎 CHANGELOG")
         .setDescription(member+ " adicionado como " +role+"!")
         .setColor(role.color)
         .setFooter(`Por: ${message.author.username} - Moreiraw Change-log`)   
@@ -51,7 +51,7 @@ module.exports.run = (client, message, args) =>{
    if(message.guild.channels.find("name", "change-log")){
     let guild = message.guild.channels.find("name", "change-log");
     const changelog = new Discord.RichEmbed()
-      .setTitle(":verificado:  CHANGE-LOG")
+      .setTitle("😎 CHANGE-LOG")
       .setDescription(member+ " adicionado como " +role+"!")
       .setColor(role.color)
       .setFooter(`Por: ${message.author.username} - Moreiraw Change-log`)  
