@@ -12,7 +12,7 @@ exports.run = (client, message, args) => {
                 "description": `ㅤㅤㅤㅤㅤㅤㅤㅤ**🏆 NOVA SUGESTÃO 🏆**ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ\nㅤ\n**Por:** <@${message.author.id}>\nㅤ\nㅤ**->** ${message.content.replace("?sugest ","")}`,
                 "color": 55512,
                 "thumbnail": {
-                    "url": "https://cdn.discordapp.com/attachments/469238635523473408/472423646082629633/WOLFENSTEIN-LOGO-T-SHIRT-logo.jpg"
+                    "url": "https://cdn.discordapp.com/attachments/472180056416845824/481982269284679680/IMG_20180822_212433.jpg"
                 }
             }
         }).then(function(value) {
