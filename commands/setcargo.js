@@ -27,7 +27,7 @@ module.exports.run = (client, message, args) =>{
         
         
            .setTimestamp()
-           .setFooter("30M ERRO", message.author.avatarURL)
+           .setFooter("ERRO", message.author.avatarURL)
         
         message.channel.send(norole)
         return;
