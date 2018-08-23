@@ -42,7 +42,7 @@ module.exports.run = async (client, message, args) =>{
         .setColor("#506609")
         .setThumbnail(member.user.avatarURL)
         .setTimestamp()
-        .setFooter("©Hiroki - Moderação")
+        .setFooter("Moreiraw - Punimentos")
      
       
     const desmutado = new Discord.RichEmbed()
