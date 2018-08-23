@@ -130,7 +130,7 @@ client.on('message', message =>{
   
   
   client.on("guildMemberRemove", member => {
-      if(member.guild.id == "481960408773689355"){
+      if(member.guild.id == "446432308086702081"){
           const channel = member.guild.channels.get("481960408773689355");
           channel.setName(`👤| Membros: ${member.guild.memberCount - member.guild.members.filter(m=>m.user.bot).size}`)
       }
