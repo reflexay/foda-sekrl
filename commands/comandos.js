@@ -27,7 +27,7 @@ module.exports.run = async (bot, message, args) => {
           .setFooter(`Moreiraw - BOT`, "https://cdn.discordapp.com/emojis/460264772869554176.gif");
 
          channel.send(bembed);
-      return message.reply("Uma mensagem foi enviada em seu privado, verifique que tem a DM liberada.!")
+      return message.reply("Uma mensagem foi enviada em seu privado, verifique se tem a DM liberada!")
   })
 }
 
