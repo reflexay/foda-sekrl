@@ -17,11 +17,11 @@ module.exports.run = async (bot, message, args) => {
           .setAuthor("Moreiraw BOT - Comandos", bicon)
           .setDescription("**Prefixo:** !\n \n **Coder:** @Deteestado")
           .addField("Lista de todos os comandos:", `**!ping** - Ele demonstra o seu ping no servidor!
-          \n**?twitter** - Envia o Twitter Oficial do Moreiraw!
-          \n**?serverinfo** - Envia uma mensagem onde demonstra o status do servidor!
-          \n**?convite** - Envia o link para a divulgação do servidor discord!
-          \n**?comandos** - Envia uma mensagem como todos os meus comandos!
-          \n**?avatar** - Envia o avatar do usuario mencionado!
+          \n**!twitter** - Envia o Twitter Oficial do Moreiraw!
+          \n**!serverinfo** - Envia uma mensagem onde demonstra o status do servidor!
+          \n**!convite** - Envia o link para a divulgação do servidor discord!
+          \n**!comandos** - Envia uma mensagem como todos os meus comandos!
+          \n**!avatar** - Envia o avatar do usuario mencionado!
           \nBom, estes são os meus comandos que você tem permissão para usufruir no servidor,qualquer bug ou sugestão contacte o Detestado#0164 no privado!
           `)
           .setFooter(`Moreiraw - BOT`, "https://cdn.discordapp.com/emojis/460264772869554176.gif");
