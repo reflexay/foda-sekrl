@@ -15,8 +15,7 @@ module.exports.run = async (bot, message, args) => {
         let bembed = new Discord.RichEmbed()
       .setColor("GREEN")
           .setAuthor("Moreiraw BOT - Comandos", bicon)
-          .setDescription("**Prefixo:** !")
-          .setDescription("**Coder: @Deteestado !")
+          .setDescription("**Prefixo:** !\n \n **Coder:** @Deteestado")
           .addField("Lista de todos os comandos:", `**!ping** - Ele demonstra o seu ping no servidor!
           \n**?twitter** - Envia o Twitter Oficial do Moreiraw!
           \n**?serverinfo** - Envia uma mensagem onde demonstra o status do servidor!
