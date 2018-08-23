@@ -9,7 +9,7 @@ exports.run = (client, message, args) => {
 
         message.guild.channels.get("482222672382656536").sendMessage({
             "embed": {
-                "description": `ㅤㅤㅤㅤㅤㅤㅤㅤ**🏆 NOVA SUGESTÃO 🏆**ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ\nㅤ\n**Por:** <@${message.author.id}>\nㅤ\nㅤ**->** ${message.content.replace("?sugest ","")}`,
+                "description": `ㅤㅤㅤㅤㅤㅤㅤㅤ**🏆 NOVA SUGESTÃO 🏆**ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ\nㅤ\n**Por:** <@${message.author.id}>\nㅤ\nㅤ**->** ${message.content.replace("!sugest ","")}`,
                 "color": 55512,
                 "thumbnail": {
                     "url": "https://cdn.discordapp.com/attachments/472180056416845824/481982269284679680/IMG_20180822_212433.jpg"
