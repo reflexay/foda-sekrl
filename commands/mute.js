@@ -44,7 +44,7 @@ module.exports.run = async (client, message, args) =>{
         .setThumbnail(member.user.avatarURL)
         .addField("📋 Motivo:", motivo)
         .setTimestamp()
-        .setFooter("Panelinhas - Mute")
+        .setFooter('Moreiraw - Punimentos', "https://cdn.discordapp.com/emojis/460264772869554176.gif")
      
       
     const mutado = new Discord.RichEmbed()
