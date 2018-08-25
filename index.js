@@ -121,25 +121,6 @@ client.on('message', message =>{
   }
 });
 
-    client.on("guildMemberAdd", member => {
-      if(member.guild.id == "446432308086702081"){
-          const channel = member.guild.channels.get("481960408773689355");
-          channel.setName(`👤| Membros: ${member.guild.memberCount - member.guild.members.filter(m=>m.user.bot).size}`)
-      }
-  });
-  
-  
-  client.on("guildMemberRemove", member => {
-      if(member.guild.id == "446432308086702081"){
-          const channel = member.guild.channels.get("481960408773689355");
-          channel.setName(`👤| Membros: ${member.guild.memberCount - member.guild.members.filter(m=>m.user.bot).size}`)
-      }
-	  
-	 
-	  
-  });
-;
-
 client.on("message", message => {
   if (message.author.bot) return;
   if (!message.content.startsWith(config.prefix)) return;
