@@ -1,5 +1,8 @@
 var Discord = require('discord.js')
 
+ if(message.channel.id != "484422774249619457") return message.reply(`Você não pode executar comandos aqui, vá em <#484422774249619457> e execute o seu comando!`)
+   message.delete().catch(O_o=>{})
+
 var cor = "#7401DF"
 
 exports.run = (client,message,args,)=>{
