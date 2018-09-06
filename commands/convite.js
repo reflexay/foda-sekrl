@@ -7,7 +7,7 @@ module.exports.run = async (client, message, args) =>{
        .setColor("0cff00")
        .setAuthor("Convite:")
        
-       .setDescription("Divulgue nosso servidor discord com o seguinte convite: https://discord.gg/tTQjxd7")
+       .setDescription("Divulgue nosso servidor discord com o seguinte convite: https://discord.gg/HrW6CGS")
        
        .setTimestamp()
        .setFooter(`Moreiraw - BOT`, "https://cdn.discordapp.com/emojis/460264772869554176.gif")
