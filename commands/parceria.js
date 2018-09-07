@@ -13,7 +13,6 @@ exports.run = (client, message, args) => {
             "embed": {
                 "description": `ㅤㅤㅤㅤㅤㅤㅤㅤ**🙏 Parceria 🙏**ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ\nㅤ\nㅤ**->** ${message.content.replace("!parceria ","")}`,
                 "color": 55512,
-                "footer": "aaaaaa"
                 "thumbnail": {
                     "url": "https://cdn.discordapp.com/attachments/472180056416845824/486995453213147174/sidoka1.png"
                 }
