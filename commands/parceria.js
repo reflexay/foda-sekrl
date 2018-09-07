@@ -1,6 +1,6 @@
 exports.run = (client, message, args) => {
 
-    if  (!message.member.hasPermissions(["ADMINISTRADOR"])) return message.reply("Erro: Você não tem permissão para BANIR!");
+    if  (!message.member.hasPermissions(["ADMINISTRADOR"])) return message.reply("Você não tem permissão para criar uma Parceria!");
 
     var coldown = new Set()
     let razaou = args.join(' ');
