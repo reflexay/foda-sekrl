@@ -74,7 +74,7 @@ client.on('messageReactionAdd', (reaction, user) => {
     .setColor("RED")
     .setThumbnail(member.user.avatarURL)
     .setFooter("Esperamos que volte um dia !")
-    .setDescription(`**${member.user.username}** \n \n :point_left: **Saiu do discord !**`)
+    .setDescription(`**${member.user.username}** \n \n :point_left: **Infelizmente Saiu do discord !**`)
     x.send(embed)
   
   });
