@@ -11,7 +11,7 @@ exports.run = (client, message, args) => {
 
         message.guild.channels.get("487704443262074911").sendMessage({
             "embed": {
-                "description": `ㅤㅤㅤㅤㅤㅤㅤㅤ**🏆 Parceria 🏆**ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ\nㅤ\nㅤ**->** ${message.content.replace("!parceria ","")}`,
+                "description": `ㅤㅤㅤㅤㅤㅤㅤㅤ**🙏 Parceria 🙏**ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ\nㅤ\nㅤ**->** ${message.content.replace("!parceria ","")}`,
                 "color": 55512,
                 "footer": "aaaaaa"
                 "thumbnail": {
