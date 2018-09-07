@@ -29,7 +29,7 @@ client.on('guildMemberAdd', member => {
     .setColor("BLUE")
     .setThumbnail(member.user.avatarURL)
     .setFooter("Venha se divertir junto connosco !!")
-    .setDescription(`:white_check_mark: **ENTROU** :white_check_mark:  \n \n ${member.user.username} **BEM VINDO(A) ao Moreiraw Discord ! !**`)
+    .setDescription(`${member.user.username} \n \n **Bem Vindo(a) ao Moreiraw Discord ! !**`)
     x.send(embed)
     let membro = member.guild.roles.find("name", "NÂO-REGISTRADO");
     member.addRole(membro)
