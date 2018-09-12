@@ -40,7 +40,7 @@ module.exports.run = async (client) =>{
 
     const mensagem3 = new Discord.RichEmbed()
     .setColor("0cff00")
-            .setAuthor("Aviso","https://cdn.discordapp.com/emojis/487770512492068884.gif)
+            .setAuthor("Aviso","https://cdn.discordapp.com/emojis/487770512492068884.gif")
 
             .setDescription("Olá, siga  o owner do discord no twitter para fica informado em sorteios / eventos que ocorrerá aqui em nosso servidor discord: https://twitter.com/Moreiiraw :smiley:")
            
@@ -53,7 +53,7 @@ module.exports.run = async (client) =>{
 
     const mensagem4 = new Discord.RichEmbed()
     .setColor("0cff00")
-            .setAuthor("Aviso","https://cdn.discordapp.com/emojis/487770512492068884.gif)
+            .setAuthor("Aviso","https://cdn.discordapp.com/emojis/487770512492068884.gif")
 
             .setDescription("Visite o twitter do dono do nosso servidor Discord!\n[Clique Aqui](https://twitter.com/Moreiiraw)\n\n :smiley:")
             .setTimestamp()
@@ -65,7 +65,7 @@ module.exports.run = async (client) =>{
 
     const mensagem5 = new Discord.RichEmbed()
     .setColor("0cff00")
-            .setAuthor("Aviso","https://cdn.discordapp.com/emojis/487770512492068884.gif)
+            .setAuthor("Aviso","https://cdn.discordapp.com/emojis/487770512492068884.gif")
 
             .setDescription("Visite o twitter do dono do nosso servidor Discord! [Clique Aqui](https://twitter.com/Moreiiraw) :smiley:")
            
