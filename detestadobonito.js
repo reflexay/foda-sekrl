@@ -9,7 +9,7 @@ module.exports.run = async (client) =>{
     console.log("O loop ativado!")
 
     for (i=0; i<10;){
-        await sleep(180)
+        await sleep(300000)
 
     const mensagem1 = new Discord.RichEmbed()
     .setColor("0cff00")
@@ -23,7 +23,7 @@ module.exports.run = async (client) =>{
     client.channels.get("488872920362385409").send(mensagem1);
     
 
-    await sleep(180)
+    await sleep(300000)
 
     const mensagem2 = new Discord.RichEmbed()
     .setColor("0cff00")
@@ -36,7 +36,7 @@ module.exports.run = async (client) =>{
 
     client.channels.get("488872920362385409").send(mensagem2);
 
-    await sleep(180)
+    await sleep(300000)
 
     const mensagem3 = new Discord.RichEmbed()
     .setColor("0cff00")
@@ -49,7 +49,7 @@ module.exports.run = async (client) =>{
 
     client.channels.get("488872920362385409").send(mensagem3);
 
-    await sleep(180)
+    await sleep(300000)
 
     const mensagem4 = new Discord.RichEmbed()
     .setColor("0cff00")
@@ -61,7 +61,7 @@ module.exports.run = async (client) =>{
 
     client.channels.get("488872920362385409").send(mensagem4);
     
-    await sleep(180)
+    await sleep(300000)
 
     const mensagem5 = new Discord.RichEmbed()
     .setColor("0cff00")
