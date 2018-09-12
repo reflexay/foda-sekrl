@@ -13,12 +13,12 @@ module.exports.run = async (client) =>{
 
     const mensagem1 = new Discord.RichEmbed()
     .setColor("0cff00")
-            .setAuthor("Aviso","https://cdn.discordapp.com/attachments/409846357982183434/429837842697682955/emoji.png")
+            .setAuthor("Aviso","https://cdn.discordapp.com/emojis/487770512492068884.gif")
 
-            .setDescription("Visite o twitter do dono do nosso servidor Discord!\n[Clique Aqui](https://twitter.com/Moreiiraw)\n\n:smiley:")
+            .setDescription("Visite o twitter do dono do nosso servidor Discord! [Clique Aqui](https://twitter.com/Moreiiraw) :smiley:")
            
             .setTimestamp()
-            .setFooter(`Mensagem Automática - Moreiiraw!`)
+            .setFooter(`Mensagens Automaticas - Moreiiraw`, "https://cdn.discordapp.com/emojis/460264772869554176.gif")
 
     client.channels.get("488872920362385409").send(mensagem1);
     
@@ -27,12 +27,12 @@ module.exports.run = async (client) =>{
 
     const mensagem2 = new Discord.RichEmbed()
     .setColor("0cff00")
-            .setAuthor("Aviso","https://cdn.discordapp.com/attachments/409846357982183434/429837842697682955/emoji.png")
+            .setAuthor("Aviso","https://cdn.discordapp.com/emojis/487770512492068884.gif")
 
             .setDescription("Olá, siga  o owner do discord no twitter para fica informado em sorteios / eventos que ocorrerá aqui em nosso servidor discord: https://twitter.com/Moreiiraw")
            
             .setTimestamp()
-            .setFooter(`Mensagem Automática - Moreiiraw!`)
+            .setFooter(`Mensagens Automaticas - Moreiiraw`, "https://cdn.discordapp.com/emojis/460264772869554176.gif")
 
     client.channels.get("488872920362385409").send(mensagem2);
 
@@ -40,12 +40,12 @@ module.exports.run = async (client) =>{
 
     const mensagem3 = new Discord.RichEmbed()
     .setColor("0cff00")
-            .setAuthor("Aviso","https://cdn.discordapp.com/attachments/409846357982183434/429837842697682955/emoji.png")
+            .setAuthor("Aviso","https://cdn.discordapp.com/emojis/487770512492068884.gif)
 
             .setDescription("Olá, siga  o owner do discord no twitter para fica informado em sorteios / eventos que ocorrerá aqui em nosso servidor discord: https://twitter.com/Moreiiraw :smiley:")
            
             .setTimestamp()
-            .setFooter(`Mensagem Automática - Moreiiraw!`)
+            .setFooter(`Mensagens Automaticas - Moreiiraw`, "https://cdn.discordapp.com/emojis/460264772869554176.gif")
 
     client.channels.get("488872920362385409").send(mensagem3);
 
@@ -53,11 +53,11 @@ module.exports.run = async (client) =>{
 
     const mensagem4 = new Discord.RichEmbed()
     .setColor("0cff00")
-            .setAuthor("Aviso","https://cdn.discordapp.com/attachments/409846357982183434/429837842697682955/emoji.png")
+            .setAuthor("Aviso","https://cdn.discordapp.com/emojis/487770512492068884.gif)
 
             .setDescription("Visite o twitter do dono do nosso servidor Discord!\n[Clique Aqui](https://twitter.com/Moreiiraw)\n\n :smiley:")
             .setTimestamp()
-            .setFooter(`Mensagem Automática - Moreiiraw!`)
+            .setFooter(`Mensagens Automaticas - Moreiiraw`, "https://cdn.discordapp.com/emojis/460264772869554176.gif")
 
     client.channels.get("488872920362385409").send(mensagem4);
     
@@ -65,12 +65,12 @@ module.exports.run = async (client) =>{
 
     const mensagem5 = new Discord.RichEmbed()
     .setColor("0cff00")
-            .setAuthor("Aviso","https://cdn.discordapp.com/attachments/409846357982183434/429837842697682955/emoji.png")
+            .setAuthor("Aviso","https://cdn.discordapp.com/emojis/487770512492068884.gif)
 
-            .setDescription("Visite o twitter do dono do nosso servidor Discord!\n[Clique Aqui](https://twitter.com/Moreiiraw)\n\n :smiley:")
+            .setDescription("Visite o twitter do dono do nosso servidor Discord! [Clique Aqui](https://twitter.com/Moreiiraw) :smiley:")
            
             .setTimestamp()
-            .setFooter(`Mensagem Automática - Moreiiraw!`)
+            .setFooter(`Mensagens Automaticas - Moreiiraw`, "https://cdn.discordapp.com/emojis/460264772869554176.gif")
 
     client.channels.get("488872920362385409").send(mensagem5);
     
