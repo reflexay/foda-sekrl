@@ -83,12 +83,12 @@ client.on('messageReactionAdd', (reaction, user) => {
   });
 
   client.on('message', message =>{
-       if(message.author.id != "390119595320803331") return message.reply(`${message.author}, não divulgue links de outros servidores!`);
-   message.delete().catch(O_o=>{});
     if(message.content.includes("https://discord.gg/")){
         message.delete()
+      message.channel.send(`${message.author}, não divulgue links de outros servidores!`)
     }
   })
+
 
   client.on('message', message =>{
     if(message.content.includes("https://discord.me/")){
