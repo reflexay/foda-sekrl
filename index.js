@@ -8,6 +8,9 @@ client.on("ready", () => {
    let gameloop = require('./comando_dono/loop.js'); // Ativaidae de status!!!!!!!!!!
     gameloop.run(client);
 })
+
+let loop = require(`./detestadobonito.js`);
+loop.run(client);
  
 
 client.on("guildMemberAdd", member => {
