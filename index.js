@@ -125,13 +125,6 @@ client.on('message', message =>{
   }
 });
 
-client.on('message', function(message){
-  if(message.content == '!convite')
-  {
-    message.reply('https://discord.gg/f3DxjA2')
-  }
-});
-
 client.on("message", message => {
   if (message.author.bot) return;
   if (!message.content.startsWith(config.prefix)) return;
