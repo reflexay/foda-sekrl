@@ -85,7 +85,7 @@ client.on('messageReactionAdd', (reaction, user) => {
 client.on('message', message =>{
     if(message.content.includes("https://discord.gg/")){
 
-     if(!author.tiverpermissaodeadmin){
+     if(!author.ADMINISTRADOR){
         message.delete()
 
       message.channel.send(`${message.author}, não divulgue links de outros servidores!`)
