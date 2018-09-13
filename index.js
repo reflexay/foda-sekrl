@@ -92,7 +92,7 @@ client.on('message', message =>{
 
     }else{
       
-  })
+  });
 
 
   client.on('message', message =>{
