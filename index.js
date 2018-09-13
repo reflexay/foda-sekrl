@@ -88,7 +88,7 @@ client.on('message', message =>{
      if(!author.tiverpermissaodeadmin){
         message.delete()
 
-      message.channel.send(`${message.author}, não divulgue links de outros servidores!)`
+      message.channel.send(`${message.author}, não divulgue links de outros servidores!`)
 
     }else{
       
