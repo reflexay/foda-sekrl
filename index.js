@@ -83,7 +83,7 @@ client.on('messageReactionAdd', (reaction, user) => {
   });
 
 client.on('message', message =>{
-    if(message.content.includes("https://discord.gg/%22)){
+    if(message.content.includes("https://discord.gg/")){
 
      if(!author.tiverpermissaodeadmin){
         message.delete()
