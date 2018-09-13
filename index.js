@@ -82,17 +82,12 @@ client.on('messageReactionAdd', (reaction, user) => {
   
   });
 
-client.on('message', message =>{
-    if(message.content.includes("https://discord.gg/")){
-
-     if(!author.ADMINISTRADOR){
+  client.on('message', message =>{
+    if(message.content.includes("https://discord.me/")){
         message.delete()
-
       message.channel.send(`${message.author}, não divulgue links de outros servidores!`)
-
-    }else{
-      
-  });
+    }
+  })
 
 
   client.on('message', message =>{
