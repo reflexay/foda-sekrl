@@ -20,7 +20,7 @@ module.exports.run = async (client) =>{
             .setTimestamp()
             .setFooter(`Mensagens Automaticas - Moreiiraw`, "https://cdn.discordapp.com/emojis/460264772869554176.gif")
 
-    client.channels.get("488872920362385409").send(mensagem1);
+    client.channels.get("489556941295583244").send(mensagem1);
     
 
     await sleep(150000)
@@ -34,7 +34,7 @@ module.exports.run = async (client) =>{
             .setTimestamp()
             .setFooter(`Mensagens Automaticas - Moreiiraw`, "https://cdn.discordapp.com/emojis/460264772869554176.gif")
 
-    client.channels.get("488872920362385409").send(mensagem2);
+    client.channels.get("489556941295583244").send(mensagem2);
 
     await sleep(150000)
 
@@ -47,7 +47,7 @@ module.exports.run = async (client) =>{
             .setTimestamp()
             .setFooter(`Mensagens Automaticas - Moreiiraw`, "https://cdn.discordapp.com/emojis/460264772869554176.gif")
 
-    client.channels.get("488872920362385409").send(mensagem3);
+    client.channels.get("489556941295583244").send(mensagem3);
 
     await sleep(150000)
 
@@ -59,7 +59,7 @@ module.exports.run = async (client) =>{
             .setTimestamp()
             .setFooter(`Mensagens Automaticas - Moreiiraw`, "https://cdn.discordapp.com/emojis/460264772869554176.gif")
 
-    client.channels.get("488872920362385409").send(mensagem4);
+    client.channels.get("489556941295583244").send(mensagem4);
     
     await sleep(150000)
 
@@ -72,7 +72,7 @@ module.exports.run = async (client) =>{
             .setTimestamp()
             .setFooter(`Mensagens Automaticas - Moreiiraw`, "https://cdn.discordapp.com/emojis/460264772869554176.gif")
 
-    client.channels.get("488872920362385409").send(mensagem5);
+    client.channels.get("489556941295583244").send(mensagem5);
     
     
     }
